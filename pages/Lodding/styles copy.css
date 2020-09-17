@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #27ae60;
+}
+
+.seach {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #2f3640;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.seach:hover > .seach-txt{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.seach:hover > .seach-btn{
+  background: #fff;
+}
+
+.seach-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #27ae60;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2f3640;
+  transition: background .5s;
+  text-decoration: none;
+}
+
+.seach-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
+  transition: .8s;  
+  line-height: 40px;
+  width: 0px;
+}
+
+
+
